@@ -1,0 +1,15 @@
+Section B
+question 13:
+	a i Bit, Kilobyte, Gigabyte, Terabyte
+	  ii 20:59
+	b i True, False, True, True
+	  ii 128
+`	c i1. primary storage keeps memory permanantly while secondary has volatile memory
+	  2. primary storage has more storage space then secondary storage
+	  ii 1.solid state drives have more memory then HDDs 
+	     2. SSDs are more accessible then HDDs
+question 14
+	a  i the word 6th year and the consent form
+           ii Dcecompostion to make the problem more simple
+	b i 
+
