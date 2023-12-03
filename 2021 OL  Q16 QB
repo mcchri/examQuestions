@@ -1,0 +1,27 @@
+# Question 16_b
+# Student Name: Christian Turean
+#The list of countries
+Standard_Postal_List=["Netherlands","Denmark","Poland",
+                      "Portugal","Finland","Romania",
+                      "France","Germany","Greece",
+                      "Spain","Hungary","Sweden",
+                      "Ireland"]
+# Enter the desired country
+ship_country = input("Please enter the country that you wish to send the order to: ")
+# checks if the desired country is in the list
+if ship_country in Standard_Postal_List:
+    print("This country uses standard postage and packaging costs.")
+else:
+    print("This country is not on the approves delivery list.")
+    # asks the user if they want to add it to the list
+    add_to_postal = input("Would you like to add this country to the approved Postal List for future deliveries, y/n :")
+    if add_to_postal == "y":
+        Standard_Postal_List.append(ship_country)
+        print(ship_country,"has been added to the Standard Postal List")
+    elif add_to_postal == "n":
+        print(ship_country,"has not been added to the Standard Postal List")
+# sorts the list alphabetically        
+Standard_Postal_List.sort()        
+print(Standard_Postal_List)
+
+
